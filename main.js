@@ -61,7 +61,6 @@ document.getElementById('open').addEventListener('click' ,()=>{
 			editor.setValue(content)
 			changing_preview()
 		}
-
 	} 
 	input_file.click()
 })
