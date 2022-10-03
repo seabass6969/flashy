@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100&family=Titan+One&display=swap');
+body {
+    margin: 0;
+    font-family: 'Jetbrains Mono', monospace;
+}
+.top-selector{
+    background-color: rgb(99, 99, 99);
+    height: 3vw;
+}
+.top-button {
+    margin-right: 3px;
+    margin-left: 3px;
+    height: 3vw;
+    font-size: medium;
+    border-style: none;
+    background-color:bisque;
+}
+#container {
+    width: 50%;
+    height: 97vw;
+    float: left;
+    border: 0px solid;
+    z-index: 0;
+}
+.preview h1,h2,h3,h4,h5,h6{
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+#preview {
+    width: 50%;
+    float: right;
+    border-left: 30px;
+    height: 97vw;
+}
+.top-button:hover {
+    background-color: beige;
+}
